@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hungryappysleepy.free_livingactivitytracker.MainActivity"
+    android:weightSum="1"
+    android:background="#4444BB">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Space
+            android:id="@+id/centreSpace"
+
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/buttonRecord"
+            android:text="Record"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/centreSpace"
+            android:layout_toStartOf="@+id/centreSpace" />
+
+        <Button
+            android:id="@+id/buttonExport"
+            android:text="Export"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonRecord"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/centreSpace"
+            android:layout_toStartOf="@+id/centreSpace"
+            android:elevation="0dp"/>
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:text="Exit"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/centreSpace"
+            android:layout_toEndOf="@+id/centreSpace" />
+
+        <Button
+            android:id="@+id/buttonSettings"
+            android:text="Settings"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonRecord"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/centreSpace"
+            android:layout_toEndOf="@+id/centreSpace" />
+
+        <Spinner
+            android:id="@+id/otherDropdown"
+            android:spinnerMode="dialog"
+            android:entries="@array/otherDropdownOptions"
+            android:background="@android:drawable/btn_dropdown"
+
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonExport"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/centreSpace"
+            android:layout_toEndOf="@+id/centreSpace" />
+
+        <Spinner
+            android:id="@+id/runningDropdown"
+            android:spinnerMode="dialog"
+            android:entries="@array/runningDropdownOptions"
+            android:background="@android:drawable/btn_dropdown"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/sportsDropdown"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/centreSpace"
+            android:layout_toEndOf="@+id/centreSpace" />
+
+        <Spinner
+            android:id="@+id/walkingDropdown"
+            android:spinnerMode="dialog"
+            android:entries="@array/walkingDropdownOptions"
+            android:background="@android:drawable/btn_dropdown"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/conditioningDropdown"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/centreSpace"
+            android:layout_toEndOf="@+id/centreSpace" />
+
+        <Spinner
+            android:id="@+id/sittingDropdown"
+            android:spinnerMode="dialog"
+            android:entries="@array/sittingDropdownOptions"
+            android:background="@android:drawable/btn_dropdown"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/standingDropdown"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/centreSpace"
+            android:layout_toEndOf="@+id/centreSpace"/>
+
+        <Spinner
+            android:id="@+id/sportsDropdown"
+            android:spinnerMode="dialog"
+            android:entries="@array/sportsDropdownOptions"
+            android:background="@android:drawable/btn_dropdown"
+
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonExport"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/centreSpace"
+            android:layout_toStartOf="@+id/centreSpace" />
+
+        <Spinner
+            android:id="@+id/conditioningDropdown"
+            android:spinnerMode="dialog"
+            android:entries="@array/conditioningDropdownOptions"
+            android:background="@android:drawable/btn_dropdown"
+
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/sportsDropdown"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/centreSpace"
+            android:layout_toStartOf="@+id/centreSpace" />
+
+        <Spinner
+            android:id="@+id/standingDropdown"
+            android:spinnerMode="dialog"
+            android:entries="@array/standingDropdownOptions"
+            android:background="@android:drawable/btn_dropdown"
+
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/conditioningDropdown"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/centreSpace"
+            android:layout_toStartOf="@+id/centreSpace" />
+
+        <Spinner
+            android:id="@+id/lyingDropdown"
+            android:spinnerMode="dialog"
+            android:entries="@array/lyingDropdownOptions"
+            android:background="@android:drawable/btn_dropdown"
+
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/standingDropdown"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/centreSpace"
+            android:layout_toStartOf="@+id/centreSpace" />
+
+        <TextView
+            android:id="@+id/timerValue"
+            android:layout_gravity="center_horizontal"
+            android:textSize="40sp"
+            android:textColor="#FFF"
+            android:text="00:00:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/sittingDropdown"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/recordingName"
+            android:text="Recording"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

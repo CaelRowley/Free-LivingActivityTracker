@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Free-Living Activity Tracker</string>
+
+    <string name="lyingDropdown">walkingDropdown</string>
+
+    <string-array name="lyingDropdownOptions">
+        <item>Lying</item>
+        <item>Lying: Quietly (in bed)</item>
+        <item>Lying: Sleeping</item>
+    </string-array>
+
+    <string-array name="sittingDropdownOptions">
+        <item>Sitting</item>
+        <item>Sitting: Quietly</item>
+        <item>Sitting: General</item>
+        <item>Sitting: Eating</item>
+        <item>Sitting: Writing/Typing/Desk Work</item>
+        <item>Sitting: Driving</item>
+        <item>Sitting: Playing Guitar</item>
+        <item>Sitting: Piano</item>
+        <item>Sitting: Drums</item>
+    </string-array>
+
+    <string-array name="standingDropdownOptions">
+        <item>Standing</item>
+        <item>Standing: Quietly</item>
+        <item>Standing: Talking</item>
+        <item>Standing: Eating</item>
+        <item>Standing: Cooking</item>
+        <item>Standing: Cleaning House</item>
+        <item>Standing: Standing Light</item>
+        <item>Standing: Dressing/Undressing</item>
+        <item>Standing: Making Bed</item>
+        <item>Standing: Grooming</item>
+        <item>Standing: Hairstyling</item>
+        <item>Standing: Printing</item>
+        <item>Standing: Violin</item>
+        <item>Standing: Washing Dishes</item>
+    </string-array>
+
+    <string-array name="walkingDropdownOptions">
+        <item>Walking</item>
+        <item>Walking: At 2.5mph</item>
+        <item>Walking: At 3mph</item>
+        <item>Walking: At 3.5mph Uphill</item>
+        <item>Walking: At 5mph</item>
+        <item>Walking: On grass</item>
+        <item>Walking: Walking with 15lb load</item>
+        <item>Walking: Load Upstairs</item>
+        <item>Walking: Loading or unloading Car</item>
+        <item>Walking: Hill Climbing with 10/20lb Load</item>
+        <item>Walking: Hiking Cross-country</item>
+        <item>Walking: Using Crutches</item>
+        <item>Walking: Mowing lawn</item>
+        <item>Walking: General Gardening</item>
+    </string-array>
+
+    <string-array name="conditioningDropdownOptions">
+        <item>Conditioning</item>
+        <item>Conditioning: Bicycling General</item>
+        <item>Conditioning: Bicycling Leisure</item>
+        <item>Conditioning: Bicycling (Light-10-11.9mph)</item>
+        <item>Conditioning: Bicycling (Moderate-12-13.9mph)</item>
+        <item>Conditioning: Stationery Bike (General)</item>
+        <item>Conditioning: Stationery Bike (Light)</item>
+        <item>Conditioning: Stationery Bike (Moderate)</item>
+        <item>Conditioning: Stationery Bike (Vigorous)</item>
+        <item>Conditioning: Weightlifting</item>
+        <item>Conditioning: Circuit Training</item>
+        <item>Conditioning: Calisthenics (Push ups etc.)</item>
+        <item>Conditioning: Rowing (Light)</item>
+        <item>Conditioning: Rowing (Moderate)</item>
+        <item>Conditioning: Stair Treadmill</item>
+        <item>Conditioning: Stretching</item>
+        <item>Conditioning: Dancing</item>
+    </string-array>
+
+    <string-array name="runningDropdownOptions">
+        <item>Running</item>
+        <item>Running: Jog/Walk Combo</item>
+        <item>Running: Running Upstairs</item>
+        <item>Running: Jogging General</item>
+        <item>Running: At 5mph</item>
+        <item>Running: At 7mph</item>
+        <item>Running: At 9mph</item>
+        <item>Running: At 10.4mph</item>
+        <item>Running: Cross Country</item>
+    </string-array>
+
+    <string-array name="sportsDropdownOptions">
+        <item>Sports</item>
+        <item>Sports: Soccer (Casual)</item>
+        <item>Sports: Soccer (Competitive Game)</item>
+        <item>Sports: Rugby</item>
+        <item>Sports: Golf General</item>
+        <item>Sports: Golf Driving Range</item>
+        <item>Sports: Boxing Bag</item>
+        <item>Sports: Track and Field (Shot Putt/Discus etc.)</item>
+        <item>Sports: Track and Field (High Jump/Long Jump etc.)</item>
+        <item>Sports: Track and field (Hurdles)</item>
+        <item>Sports: Badminton</item>
+        <item>Sports: Basketball (Game)</item>
+        <item>Sports: Basketball (Practice)</item>
+        <item>Sports: Field Hockey</item>
+        <item>Sports: Bowling</item>
+        <item>Sports: Darts</item>
+        <item>Sports: Frisbee</item>
+        <item>Sports: Cricket</item>
+        <item>Sports: Skateboarding</item>
+        <item>Sports: Children\'s Games</item>
+        <item>Sports: Coaching</item>
+        <item>Sports: Tennis General</item>
+    </string-array>
+
+
+    <string-array name="otherDropdownOptions">
+        <item>Other</item>
+        <item>Other: User Input</item>
+    </string-array>
+</resources>
